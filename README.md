@@ -1,1 +1,1 @@
-# Assessment
+#  The task is to create a Nodejs/ Nestjs Project that can perform operations similar to AWS S3 bucket without using AWS S3 Service

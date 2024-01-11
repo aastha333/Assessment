@@ -42,5 +42,5 @@
   "WRONG_PASS": "'गलत पासवर्ड'",
   "INVALID_ROUTE": "अमान्य मार्ग",
   "MISSING_API_KEY": "लापता एपीआई कुंजी",
-  "INVALID_API_KEY": "एपीआई कुंजी अमान्य है"
+  "INVALID_API_KEY": "एपीआई कुंजी अमान्य है" 
 }

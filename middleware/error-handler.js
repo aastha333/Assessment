@@ -8,7 +8,7 @@ exports.notFound = (req, res) => {
   }, HttpStatus.NOT_FOUND);
 };
 
-// Method not allowed error middleware.
+// Method not allowed error middleware. 
 exports.methodNotAllowed = (req, res) => {
   return response.error(req, res, {
     msgCode: 'INVALID_ROUTE'

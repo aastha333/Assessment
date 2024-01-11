@@ -46,7 +46,7 @@ const downloadSpecifcImage = async (req, res) => {
     }
 };
 
-// Delete a specific object from the "bucket"
+// Delete a specific object from the "bucket" 
 const deleteImage = async (req, res) => {
     try {
         const objectName = req.params.objectName;

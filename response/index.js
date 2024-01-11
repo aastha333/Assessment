@@ -14,7 +14,7 @@ fs.readdirSync(path.join(__dirname, 'lng')).filter(file => {
 });
 
 exports.success = async (req, res, result, code) => {
-  const lng = req.headers['accept-language'] || 'en';
+  const lng = req.headers['accept-language'] || 'en'; 
   try {
     const response = {
       success: true,

@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const { storage } = require('../middleware/index')
 const multer = require('multer');
-const upload = multer({ storage });
 const controller = require('../controller/crud');
+
+const upload = multer({ storage });
 
 router.get('/get-images', controller.getImage);
 router.post('/upload-image', upload.single('file'), controller.uploadImage);
